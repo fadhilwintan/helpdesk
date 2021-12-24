@@ -1,0 +1,78 @@
+.newFormContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newFormWrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .tes1 {
+  background: #020202;
+  max-width: 480px;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  display: grid;
+  margin: 0 auto;
+  padding: 30px 0px;
+  list-style: none;
+} */
+
+.newLabel {
+  font-size: 16px;
+  color: #020202;
+  text-align: center;
+}
+
+.newForm {
+  width: 720px;
+  height: 25px;
+  border: 0.2 solid #020202;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.newFormTanya {
+  width: 720px;
+  height: 100px;
+  border: 0.1 solid #020202;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.tes2 {
+  justify-content: center;
+}
+
+.newBtn {
+  /* margin-right: 230px; */
+  width: 180px;
+  height: 30px;
+  background: #ffffff;
+  border: 0.2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(211, 155, 93, 0.5);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+  .newForm {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  .newLabel {
+    margin-left: 10px;
+  }
+
+  .newFormTanya {
+    width: 460px;
+    margin-left: 10px;
+  }
+}

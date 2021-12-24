@@ -1,0 +1,12 @@
+.btn12 {
+  color: #020202;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn12:hover {
+  transition: all 0.1s ease-in-out;
+  background: #208000;
+  color: #fff;
+}

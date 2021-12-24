@@ -1,0 +1,14 @@
+.tabelAdmin {
+  margin: 30px 100px;
+}
+
+.admBtn {
+  text-decoration: none;
+  color: #020202;
+  cursor: pointer;
+}
+
+.reportTable {
+  padding: 10px;
+  padding-left: 20px;
+}
